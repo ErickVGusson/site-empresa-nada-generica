@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 1rem;
+}
+
+.menu {
+    display: flex;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu li a {
+    margin: 5px;
+    text-decoration: none;
+}
+
+.banner {
+    background-color: beige; /* trocar por imagem */
+    padding: 100px;
+}
+
+main {
+    display: flex;
+}
