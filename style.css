@@ -17,6 +17,7 @@ body {
 
 :root {
     --fundo: white;
+    --fundo2: #f3f4f6;
     --titulo: #e63946;
     --subtitulo: #1d3557;
     --link: #457b9d;
@@ -83,9 +84,9 @@ body {
 }
 
 .banner {
-    background-image: url(banner.jpg);
+    background-image: url(bannertest.jpg);
     background-size: cover;
-    padding: 250px;
+    padding: 200px;
 }
 
 .main {
@@ -108,19 +109,26 @@ body {
     margin: 0 10px;
 }
 
+.ofertas-itens img {
+    height: 250px;
+    width: 200px;
+}
+
 .ofertas-itens h1, h2 {
     margin: 10px 0;
 }
 
 .form {
     padding: 100px;
+    margin: 50px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--fundo2);
 }
 
 .form label {
-    font-size: 35px;
+    font-size: 50px;
     font-weight: 600;
 }
 
