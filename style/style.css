@@ -84,7 +84,7 @@ body {
 }
 
 .banner {
-    background-image: url(bannertest.jpg);
+    background-image: url(/img/bannertest.jpg);
     background-size: cover;
     padding: 200px;
 }
