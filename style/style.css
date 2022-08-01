@@ -112,6 +112,9 @@ body {
 
 .ofertas-itens {
     margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .ofertas-itens img {
@@ -119,8 +122,8 @@ body {
     width: 200px;
 }
 
-.ofertas-itens h1, h2 {
-    margin: 10px 0;
+.ofertas-itens h2, h1{
+    margin: 20px 0;
 }
 
 .form {
